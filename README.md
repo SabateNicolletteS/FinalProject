@@ -1,2 +1,1 @@
-# FinalProject
-This is my submission for Computer Science 3 1st Quarter Final Project
+This is the Final Project for the first quarter of Computer Science 3, it covers all modules. 
