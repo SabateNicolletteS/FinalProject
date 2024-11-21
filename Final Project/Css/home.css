@@ -40,7 +40,7 @@ body {
     }
 
     button {
-        background-color:#696157;
+        background-color:#b8a186;
         color: antiquewhite;
         padding: 0.5rem 1rem;
         border: none;
@@ -72,6 +72,10 @@ body {
         border-radius: 10px;
         border-width: 5px;
     }
+
+    h2:hover{
+        transform:translate(12px, -12px);
+    }
     h3 {
         font-size:25px;
         background-color: #5f5446;
@@ -81,6 +85,10 @@ body {
         color: antiquewhite;
         border-radius: 10px;
         border-width: 5px;
+        transform: translate(12px. -12px);
+    }
+    h3:hover{
+        transform:translate(12px, -12px);
     }
     .uy {
         text-align: justify;
@@ -88,6 +96,7 @@ body {
         margin-left: 15px;
         font-size: 20px;
         margin-top: 3px;
+        transform: translate(12px. -12px);
     }
     .wow {
         text-align: justify;
@@ -96,10 +105,16 @@ body {
         font-size: 20px;
         margin-top: 5px;
         margin-bottom: 20px;
+        transform: translate(12px. -12px);
 
     }
     h4 {
         margin-bottom: 4px;
+        transform: translate(12px. -12px);
+    }
+
+    h4:hover{
+        transform:translate(12px, -12px);
     }
 
     .ah {
@@ -109,6 +124,8 @@ body {
         margin-top: 5px;
         margin-bottom: 5px;
         font-size: 20px;
+        
+
     }
     
     h4 {
@@ -122,4 +139,18 @@ body {
         color: antiquewhite;
         border-radius: 10px;
     }
+
+    button:hover {
+        background-color: #dd9fb9;
+        transition: background-color 1000ms linear;
+        transition: background-color 1000ms linear;
+        transition: background-color 1000ms linear;
+        color: white
+    }
+
+    .description {
+        margin-top: 0px;
+    }
+
+
 }
