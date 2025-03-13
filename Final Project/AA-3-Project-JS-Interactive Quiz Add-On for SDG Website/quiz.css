@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color:#ebe1d9 ;
+    align-items: center;
+    justify-content: center;
+}
+   header {
+    background-color: #A48374;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5C5247;
+    padding: 1rem;
+    border-radius: 30px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0;
+}
+
+nav div, nav a {
+    text-decoration: none;
+}
+
+button {
+    background-color: #B8A186;
+    color: antiquewhite;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #dd9fb9;
+    transform: scale(1.05);
+}
+
+    
+.quizContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.quizBox {
+    background-color: white;
+    width: 50%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.options {
+    margin-top: 15px;
+}
+
+.options button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #b8a186;
+    color: antiquewhite;
+    cursor: pointer;
+    font-family:'Courier New', Courier, monospace;
+    transition: background-color 0.3s;
+}
+
+.options button:hover {
+    background-color: #dd9fb9;
+}
+
+.next-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #b8a186;
+    color: antiquewhite;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.next-button:hover {
+    background-color: #dd9fb9;
+    transform: scale(1.05);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #A48374;
+    padding: 1rem;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+audio {
+    width: 300px;
+    background-color: transparent;
+}
