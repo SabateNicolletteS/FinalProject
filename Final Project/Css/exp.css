@@ -5,7 +5,8 @@ body {
     align-items: center;
     justify-content: center;
 }
-   header {
+
+  header {
     background-color: #A48374;
     padding: 1rem;
 }
@@ -48,7 +49,6 @@ button:hover {
     transform: scale(1.05);
 }
 
-
     .hero {
         background-color:#e9e0d8;
         padding: 2rem;
@@ -63,43 +63,48 @@ button:hover {
         margin-top: 3px;
     }
 
-    .featured-image img {
-        width: 1000px;
-        height: 0 auto;
-        padding: 0 20px;
-        box-sizing: border-box;
+    .featured-video {
         display: flex;
-        justify-content: center;
-        float: inline-start;
-        grid-column: 1;
+        justify-content: center;  /* Centers video horizontally */
+        align-items: center;  
+        margin: 20px 0; /* Adds spacing between heading and text */
     }
+    
+    .featured-video video {
+        width: 80%; 
+        max-width: 800px; 
+        height: auto; 
+        border-radius: 10px; 
+    }
+    
+
     h2 {
         font-size:25px;
         background-color: #5f5446;
         display:inline-block;
-        margin-bottom: 5px;
+        margin-top:10px;
+        margin-bottom: 8px;
         color: antiquewhite;
         border-radius: 10px;
         border-width: 5px;
+        margin-left: 15px;
+
     }
 
-    h2:hover{
-        transform:translate(12px, -12px);
     }
     h3 {
         font-size:25px;
         background-color: #5f5446;
         display:inline-block;
         margin-top:10px;
-        margin-bottom: 5px;
+        margin-bottom: 8px;
         color: antiquewhite;
         border-radius: 10px;
         border-width: 5px;
-        transform: translate(12px, -12px);
+        margin-left:15px;
+
     }
-    h3:hover{
-        transform:translate(12px, -12px);
-    }
+
     .uy {
         text-align: justify;
         margin-right: 20px;
@@ -117,14 +122,6 @@ button:hover {
         margin-bottom: 20px;
         transform: translate(12px, -12px);
 
-    }
-    h4 {
-        margin-bottom: 4px;
-        transform: translate(12px, -12px);
-    }
-
-    h4:hover{
-        transform:translate(12px, -12px);
     }
 
     .ah {
@@ -145,11 +142,14 @@ button:hover {
         margin-top:1px;
         margin-right:15px;
         margin-left:15px;
-        margin-bottom: 5px;
         color: antiquewhite;
         border-radius: 10px;
+        margin-bottom: 8px;
     }
 
     .description {
         margin-top: 0px;
     }
+
+
+}
