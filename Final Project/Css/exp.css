@@ -5,8 +5,7 @@ body {
     align-items: center;
     justify-content: center;
 }
-
-  header {
+   header {
     background-color: #A48374;
     padding: 1rem;
 }
@@ -15,7 +14,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #5C5247; /* Adjusted to match the dark background */
+    background-color: #5C5247;
     padding: 1rem;
     border-radius: 30px;
 }
@@ -91,7 +90,6 @@ button:hover {
 
     }
 
-    }
     h3 {
         font-size:25px;
         background-color: #5f5446;
@@ -150,6 +148,3 @@ button:hover {
     .description {
         margin-top: 0px;
     }
-
-
-}

@@ -14,7 +14,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #5C5247; /* Adjusted to match the dark background */
+    background-color: #5C5247;
     padding: 1rem;
     border-radius: 30px;
 }
@@ -47,8 +47,7 @@ button:hover {
     background-color: #dd9fb9;
     transform: scale(1.05);
 }
-
-
+    
     .hero {
         background-color:#e9e0d8;
         padding: 2rem;
@@ -149,7 +148,6 @@ button:hover {
         color: antiquewhite;
         border-radius: 10px;
     }
-
     .description {
         margin-top: 0px;
     }

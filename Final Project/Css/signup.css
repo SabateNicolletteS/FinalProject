@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color:#ebe1d9 ;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+   header {
+    background-color: #A48374;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5C5247;
+    padding: 1rem;
+    border-radius: 30px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0;
+}
+
+nav div, nav a {
+    text-decoration: none;
+}
+
+button {
+    background-color: #B8A186;
+    color: antiquewhite;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #dd9fb9;
+    transform: scale(1.05);
+}
+  
+  .signup-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  form.form {
+    background: #ffffff;
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  form.form div {
+    margin-bottom: 20px;
+  }
+  
+  form.form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  form.form input[type="text"],
+  form.form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  form.form button[type="submit"] {
+    background-color: #d16ba5;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  form.form button[type="submit"]:hover {
+    background-color: #b35a8a;
+  }
+  
+  .required {
+    color: red;
+    font-size: 0.85rem;
+  }

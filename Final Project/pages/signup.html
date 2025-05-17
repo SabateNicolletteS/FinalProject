@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education/Diversity Template</title>
+    <link rel="stylesheet" href="../Css/signup.css">
+</head>
+    <header>
+
+            
+            <ul>
+                <nav>
+                <a href="../pages/home.html" class="w3-bar-item w3-button"><button>Home</button></a>
+                <a href="../pages/sol.html" class="w3-bar-item w3-button"><button>Solution</button></a>
+                <a href="../pages/exp.html" class="w3-bar-item w3-button"><button>Experiences</button></a>
+                <a href="../pages/quiz.html" class="w3-bar-item w3-button"><button>Quiz</button></a>
+                <a href="../pages/signup.html" class="w3-bar-item w3-button"><button>Sign up</button></a>
+                <a href="../pages/profile.html" class="w3-bar-item w3-button"><button>Profile</button></a>
+              </div>
+            </ul>
+        </nav>
+    </header>
+<body>
+    <main>
+        <section class="hero">
+            <h1>Women Empowerment</h1>
+            <p class="tagline">Advocating to keep empowering women.</p>   
+        <hr>
+        </section>
+
+
+        <body>
+                <div class="main-wrapper">
+                <form class="form" id="signupForm">
+                    
+                        <section class="page-header">
+                          <h1>Sign Up to Empower Change</h1>
+                          <p>“Your voice matters. Join us in shaping a fairer future.”</p>
+                        </section>
+                    <div>
+                        <label for="fn">First Name <span class="required">*</span></label>
+                        <input type="text" id="fn" required>
+                        <span class="required" id="fnError"></span>
+                    </div>
+                  
+                    <div>
+                        <label for="ln">Last Name <span class="required">*</span></label>
+                        <input type="text" id="ln" required>
+                        <span class="required" id="lnError"></span>
+                    </div>
+                
+                    <div id="radio-group">
+                        <label>Sex <span class="required">*</span></label>
+                        <label><input type="radio" name="sex" value="male" required>male</label>
+                        <label><input type="radio" name="sex" value="female" required>female</label>
+                        <label><input type="radio" name="sex" value="prefer not to say" required>prefer not to say</label>
+                        <span class="required" id="sError"></span>
+                    </div>
+            
+                    <div>
+                        <label for="ea">Email Address <span class="required">*</span></label>
+                        <input type="text" id="ea" required>
+                        <span class="required" id="eaError"></span>
+                    </div>
+                    
+                    <div>
+                        <label for="pass">Password <span class="required">*</span></label>
+                        <input type="password" id="pass" required>
+                        <span class="required" id="passError"></span>
+                    </div>
+            
+                    <div>
+                        <label for="cn">Contact Number </label>
+                        <input type="text" id="cn">
+                    </div>
+            
+                    <div>
+                        <label for="reason">Why you're supporting our campaign? <span class="required">*</span></label>
+                        <input type="text" id="reason" required>
+                        <span class="required" id="reasonError"></span>
+                    </div>
+            
+                    <button type="submit">Sign Up</button>
+                    </section>
+                  </form>
+    <script src="/js/script.js"></script>
+</body>
+</html>
